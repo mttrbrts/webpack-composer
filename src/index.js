@@ -18,7 +18,7 @@ const listItems = mm.getNamespaces().map((n) =>
 );
 
 const Index = () => {
-    return <li>{listItems}</li>;
+    return <ul>{listItems}</ul>;
 };
 
 ReactDOM.render(<Index />, document.getElementById("index"));
